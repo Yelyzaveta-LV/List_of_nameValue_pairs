@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test</title>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="web-page">
+      <div class="web-page-modal">
+        <h3 class="document-name">Test</h3>
+
+        <div class="values-for-list">
+          <img src="img/wr.png" alt="wornings" class="wornings" id="wornings" />
+          <label for="name-value">Name/Value Pair</label>
+        </div>
+
+        <div class="value-choice">
+          <div class="information-in-modal">
+            <input
+              type="text"
+              placeholder="Name=Value"
+              class="input-size"
+              id="name-value"
+            />
+            <input
+              type="submit"
+              value="Add"
+              class="sorting-buttons-show"
+              id="add"
+            />
+          </div>
+        </div>
+
+        <div class="list-by-value">
+          <div class="values-for-list">
+            <label for="">Name/Value Pair List</label>
+          </div>
+
+          <div class="list-by-value-choice">
+            <div class="information-in-modal">
+              <textarea
+                type="text"
+                placeholder="Hello = World - (if you want to delete a value, write it to the line and click delete)"
+                disabled
+                class="input-size-two"
+                id="name-value-list"
+              ></textarea>
+            </div>
+
+            <div class="sorting-buttons">
+              <input
+                type="submit"
+                value="Sort by Name"
+                class="sorting-buttons-show"
+                id="sort-by-name"
+              />
+              <input
+                type="submit"
+                value="Sort by Value"
+                class="sorting-buttons-show"
+                id="sort-by-value"
+              />
+              <input
+                type="submit"
+                value="Delete"
+                title="Enter the NAME you want to remove from the list"
+                class="sorting-buttons-show"
+                id="delete"
+              />
+              <input
+                type="submit"
+                value="Show XML"
+                class="sorting-buttons-show"
+                id="show-XML"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>

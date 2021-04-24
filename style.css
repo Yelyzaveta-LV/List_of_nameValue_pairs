@@ -1,0 +1,125 @@
+body {
+  background-color: rgb(202, 192, 238);
+}
+
+.web-page-modal {
+  width: 800px;
+  padding: 10px;
+  margin: auto;
+  margin-top: 100px;
+  background-color: bisque;
+  padding: 50px;
+  font-family: cursive;
+}
+
+.document-name {
+  text-align: center;
+}
+
+.information-in-modal {
+  justify-content: space-between;
+  display: flex;
+  padding: 0 10%;
+  padding: 0;
+}
+
+.information-in-modal input[value="Add"] {
+  width: 100px;
+  border-radius: 6px;
+}
+
+.input-size {
+  width: 502px;
+  border: 1px solid black;
+  height: 25px;
+}
+
+.values-for-list {
+  display: flex;
+  padding: 0 10%;
+  margin-bottom: 5px;
+}
+
+.wornings {
+  display: none;
+  width: 40px;
+}
+
+.value-choice {
+  padding: 0 10%;
+  margin-bottom: 34px;
+}
+
+.list-by-value-choice {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10%;
+}
+
+textarea {
+  resize: none;
+  height: 200px;
+}
+
+.input-size-two {
+  border: 1px solid black;
+  width: 502px;
+}
+
+.sorting-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.sorting-buttons input {
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.sorting-buttons-show:hover {
+  font-size: 13px;
+  padding: 5px 10px;
+  border: 1px solid rgb(68, 43, 43);
+}
+
+@media only screen and (max-width: 900px) {
+  .web-page-modal {
+    width: auto;
+  }
+
+  .web-page-modal {
+    margin-top: 35px;
+  }
+
+  .document-name {
+    margin: 10px;
+  }
+
+  .information-in-modal {
+    flex-direction: column;
+  }
+
+  .input-size {
+    width: auto;
+  }
+
+  .information-in-modal input[value="Add"] {
+    margin-top: 10px;
+  }
+
+  #add {
+    margin: auto;
+    margin-top: 10px;
+  }
+  .input-size-two {
+    width: auto;
+  }
+
+  .list-by-value-choice {
+    flex-direction: column;
+  }
+
+  .sorting-buttons {
+    margin-top: 10px;
+  }
+}
